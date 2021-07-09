@@ -27,4 +27,4 @@ fmt:
 		-v $(PWD):/app \
 		-w /app \
 		-e GITHUB_TOKEN=${GITHUB_TOKEN} \
-		divido/gobuild:1.14-alpine3.11 sh -c "go mod tidy; go fmt ./..."
+		divido/gobuild:1.16-alpine3.14 sh -c "go mod tidy; go fmt ./..."
